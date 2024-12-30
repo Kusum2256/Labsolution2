@@ -19,7 +19,7 @@
     <?php
     if (isset($_POST['calculate_cars'])) {
         function calculate_cars_needed($n) {
-            return ceil($n / 5);
+            return round($n / 5);
         }
 
         $people = $_POST['people'];

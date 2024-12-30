@@ -10,11 +10,11 @@
 
     <form method="post">
         <label for="base">Base (decimal):</label>
-        <input type="number" step="any" id="base" name="base" required>
+        <input type="number"  id="base" name="base" required>
         <br><br>
 
         <label for="height">Height (decimal):</label>
-        <input type="number" step="any" id="height" name="height" required>
+        <input type="number" id="height" name="height" required>
         <br><br>
 
         <label for="shape">Shape (triangle or parallelogram):</label>
